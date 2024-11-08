@@ -29,3 +29,8 @@ To run the linter and fix issues:
 
 ```bash
 docker compose run --rm app ruff check --fix
+
+
+## Technical Design
+
+For detailed information about the technical solution and design, please refer to the [Technical Design Document](TECHNICAL_DESIGN.md).
