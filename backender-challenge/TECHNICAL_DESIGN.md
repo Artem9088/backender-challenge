@@ -163,3 +163,8 @@ In the `CreateUser` use case:
 
 - **Celery vs. Custom Daemon:**
   - Chose Celery for its robustness, scalability, and familiarity within the tech stack.
+
+## Conclusion
+
+The implemented solution effectively addresses the initial problems by ensuring transactional integrity, improving performance, and providing a reliable event logging mechanism. By using the transactional outbox pattern and asynchronous processing with Celery, the application can handle events efficiently without impacting the user experience or system reliability.
+
